@@ -14,6 +14,7 @@ nav li{
     list-style-type: none;
     display: inline-block;
     letter-spacing: 1.5pt;
+    font-size: 12pt;
 }
 
 nav a{
@@ -47,19 +48,6 @@ nav a:visited{
 .logo a:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }    
-
-.logo,
-.dropdown01,
-.dropdown02,
-.dropdown03,
-.dropdown04,
-.dropdown05 {
-    display: inline-block;
-    position: relative;
-    font-weight: bold;
-    letter-spacing: 1.5pt;
-}
-
 .logo{
     margin-right: 40px;
     vertical-align: middle;
@@ -68,54 +56,20 @@ nav a:visited{
     height: 90px;
 }
 
-.dropdown01,
-.dropdown02,
-.dropdown03,
-.dropdown04,
-.dropdown05 {
-    margin-right: 40px;
-    font-size: 15pt;
-    line-height: 45px;
-}
 
 /*設定dropdown-menu*/
 .dropdown-menu{
     display: none;
 }
 
-.dropdown01:hover #menu01,
-.dropdown02:hover #menu02,
-.dropdown03:hover #menu03 {
+.dropdown:hover #menu01 {
     display: block;
     position: fixed;
-    top: 55px;
-    left: 20vw;
-    right: 10px;
-    max-width: 800px; 
     background-color: ivory;
     color: black;
     border-style: none;
 }
 
-.dropdown04:hover #menu04,
-.dropdown05:hover #menu05,
-.dropdown05:hover #menu06,
-.dropdown05:hover #menu07 {
-    display: block;
-    position: fixed;
-    top: 100px;
-    left: 20vw;
-    right: 10px;
-    max-width: 800px;  
-    padding: 15px 0px 15px 30px; 
-    background-color: ivory;
-    border-style: none;
-}
-
-.dropdown06:hover #menu06 {
-    display: block;
-    position: relative;
-}
 
    
 .dropdown-menu img {
@@ -163,13 +117,6 @@ nav a:visited{
 }
 
 
-/*設定header*/
-header {
-    background-color: white;
-    font-family: 'Roboto';
-    padding: 0px;
-    margin: 0;
-}
 
 
 
@@ -186,7 +133,6 @@ header {
     opacity: 0.7;
     color: lightgoldenrodyellow;
 }
-
 #top:hover,
 #top:active {
     opacity: 1;
@@ -314,26 +260,22 @@ footer{
     height: 400px;
 }
 
-h3 {
-    letter-spacing: 1pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+    
 }
-
-.carousel-caption p{
-    letter-spacing: 1.5pt;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
