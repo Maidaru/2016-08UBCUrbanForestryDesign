@@ -30,15 +30,7 @@ nav a:visited{
 }
 
 .dropdown01 a:hover,
-.dropdown02 a:hover,
-.dropdown03 a:hover,
-.dropdown04 a:hover,
-.dropdown05 a:hover,
-.dropdown01 a:active,
-.dropdown02 a:active,
-.dropdown03 a:active,
-.dropdown04 a:active,
-.dropdown05 a:active {
+.dropdown01 a:active {
     text-decoration: none;
     color: #003262;
     background-color: lemonchiffon;
@@ -121,6 +113,14 @@ nav a:visited{
 
 
 /*設定body：container*/
+.container{
+    text-align: center;
+    margin-top: 0px;
+    display: block;
+}
+
+.
+
 
 /*設定upward*/
 #top{
@@ -139,10 +139,7 @@ nav a:visited{
 }
 
 /*設定thumbnal*/
-.container{
-    text-align: center;
-    padding-top: 20px;
-}
+
 
 head01 {
     font-family: cursive;
@@ -157,6 +154,11 @@ head01 img {
     width: 100%;
     margin-top: 5pt;
 }
+
+.row {
+    display: block;
+}
+
 
 .row p {
     display: inline-block;
@@ -246,13 +248,16 @@ footer{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    top: 180px;
 }   
 
 #myCarousel {
     height: 400px;
     position: fixed;
+    display: block;
     left: 0;
     right: 0;
+    top: 95px;
 }
 
 #myCarousel img {
@@ -261,7 +266,9 @@ footer{
 }
 
 
-
+#vision {
+    top: 350px;
+}
 
 
 
