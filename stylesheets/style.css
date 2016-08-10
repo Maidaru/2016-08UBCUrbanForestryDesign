@@ -1,7 +1,7 @@
 /*    設定nav*/
 nav{
     position: fixed;
-    top: 10px;
+    top: 0px;
     width: 85%;
     height: 90px;
     margin-left: auto;
@@ -19,15 +19,17 @@ nav li{
 
 nav a{
     font-family: cursive, serif;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav a,
 nav a:visited{
     text-decoration: none;
     color: darkgreen;
-    color:dimgrey;
+    color:dimgray;
 }
+
+
 
 .dropdown01 a:hover,
 .dropdown01 a:active {
@@ -41,8 +43,8 @@ nav a:visited{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }    
 .logo{
-    margin-right: 40px;
-    vertical-align: middle;
+    margin-right: 30px;
+    vertical-align: top;
 }
 .logo img {
     height: 90px;
@@ -57,27 +59,14 @@ nav a:visited{
 .dropdown:hover #menu01 {
     display: block;
     position: fixed;
+    width: 300px;
+    text-align: center;
     background-color: ivory;
     color: black;
     border-style: none;
+    border-collapse: collapse;
 }
 
-
-   
-.dropdown-menu img {
-    width: 100%;
-    padding-left: 20px;
-    vertical-align: middle;
-}
-/*img 350x255，固定width=350px*/
-
-.dropdown-menu p{
-    font-size: 12pt;
-    line-height: 15pt;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    padding-right: 5px;
-}
 
 /*設定.dropdown-menu hyperlink*/
 .caret02{
@@ -86,30 +75,6 @@ nav a:visited{
     border-color: transparent transparent transparent brown;
     display: inline-block;
 }
-
-.hyperlink li{
-    line-height: 15pt;
-    margin-right: 10px;
-    margin-left: -10px;
-}
-
-.hyperlink a{
-    font-size: 12pt;
-}
-
-.hyperlink a:hover,
-.hyperlink a:active {
-    text-decoration: none;
-    color: #003262;
-}
-
-.hyperlink a:hover .caret02,
-.hyperlink a:active .caret02{
-    border-color: transparent transparent transparent black;
-}
-
-
-
 
 
 /*設定body：container*/
@@ -228,11 +193,13 @@ a .thumbnail:active {
 }
 
 /*footer*/
-footer{
+.footer{
     background-color:forestgreen;    
     width: 100%;
     height: 50px;
     bottom: 0;
+    right: auto;
+    left: auto;
     text-align: center;
     line-height: 50px;
     color: azure;
@@ -248,12 +215,12 @@ footer{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    top: 180px;
+    top: 90px;
 }   
 
 #myCarousel {
     height: 400px;
-    position: fixed;
+    position: relative;
     display: block;
     left: 0;
     right: 0;
@@ -271,7 +238,9 @@ footer{
 }
 
 
-
+.tab-pane {
+    
+}
 
 
 
