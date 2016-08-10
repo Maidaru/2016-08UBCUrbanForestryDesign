@@ -212,19 +212,17 @@ a .thumbnail:active {
 
 /* tab-content*/
 .tab-content {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    top: 90px;
+    top: 0px;
 }   
 
 #myCarousel {
     height: 400px;
     position: relative;
-    display: block;
     left: 0;
     right: 0;
-    top: 95px;
 }
 
 #myCarousel img {
