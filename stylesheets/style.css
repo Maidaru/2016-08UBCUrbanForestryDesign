@@ -10,6 +10,8 @@ nav{
     overflow: hidden;
 }
 
+
+
 nav li{
     list-style-type: none;
     display: inline-block;
@@ -36,33 +38,6 @@ nav a:visited{
 .logo img {
     height: 90px;
 }
-
-
-
-/*  dropdown*/
-.dropdown01 a:hover,
-.dropdown01 a:active {
-    text-decoration: none;
-    color: #003262;
-    background-color: lemonchiffon;
-}
-
-/*設定dropdown-menu*/
-.dropdown-menu{
-    display: none;
-}
-
-.dropdown:hover #menu01 {
-    display: block;
-    position: fixed;
-    width: 300px;
-    text-align: center;
-    background-color: ivory;
-    color: black;
-    border-style: none;
-    border-collapse: collapse;
-}
-
 
 /*設定.dropdown-menu hyperlink*/
 .caret02{
@@ -196,7 +171,7 @@ a .thumbnail:active {
     font-family: 'Open Sans';
     color: darkslategray;
     padding-left: 10px;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 
 h3 {
@@ -273,8 +248,6 @@ h5 {
     margin-right: auto;
 }
 
-
-
 .container06 .row p{
     font-size: 15pt;
 }
@@ -300,6 +273,27 @@ h6 {
 #change1 h6,
 #change2 h6 {
     color: orangered;
+}
+
+#tab7 .container06 .row {
+    display: inline-block;
+}
+
+#tab7 .container06 #connect4 {
+    padding-top: 15px;
+}
+
+#detail {
+    padding-left: 30px;
+}
+
+button {
+    font-family: cursive;
+    font-size: 22pt;
+    color: darkgreen;
+    background-color: white;
+    border-style: none;
+    padding-left: 15pt;
 }
 
 /*設定upward*/
