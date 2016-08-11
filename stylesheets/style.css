@@ -2,7 +2,7 @@
 nav{
     position: fixed;
     top: 0px;
-    width: 85%;
+    width: 90%;
     height: 90px;
     margin-left: auto;
     margin-right: auto;
@@ -13,13 +13,13 @@ nav{
 nav li{
     list-style-type: none;
     display: inline-block;
-    letter-spacing: 1.5pt;
-    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-size: 15pt;
 }
 
 nav a{
     font-family: cursive, serif;
-    padding: 10px;
+   
 }
 
 nav a,
@@ -33,10 +33,6 @@ nav a:visited{
 .logo a:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }    
-.logo{
-    margin-right: 30px;
-    vertical-align: top;
-}
 .logo img {
     height: 90px;
 }
@@ -77,14 +73,6 @@ nav a:visited{
 }
 
 
-/*設定body：container*/
-.container{
-    text-align: center;
-    margin-top: 0px;
-    display: block;
-}
-
-
 /*設定upward*/
 #top{
     font-size: 40pt;
@@ -102,7 +90,14 @@ nav a:visited{
 }
 
 
-/*設定thumbnal*/
+
+
+/*設定tab1 container*/
+.container{
+    text-align: center;
+    margin-top: 0px;
+    display: block;
+}
 
 head01 {
     font-family: cursive;
@@ -112,17 +107,31 @@ head01 {
     text-align: center;
     padding: 5pt;
 }
-
 head01 img {
     width: 100%;
     margin-top: 5pt;
 }
 
-.row {
-    display: block;
+.container p,
+.container li {
+    font-family: cursive;
+    font-size: 15pt;
+    text-align: left;    
 }
 
+.container p {
+    padding: 10pt;
+    margin-top: 5pt;
+}
 
+.container li {
+    padding-left: 40pt;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
 .row p {
     display: inline-block;
     text-align: left;
@@ -185,12 +194,27 @@ a .thumbnail:active {
 .thumbnail p{
     text-align: left;
     font-family: 'Open Sans';
-    color: darkslategrey;
+    color: darkslategray;
     padding-left: 10px;
     font-size: 15pt;
 }
 
+h3 {
+    color: forestgreen;
+}
+h4 {
+    color: gold;
+}
+h5 {
+    color: orangered;    
+}
 
+h3,
+h4,
+h5 {
+    font-family: cursive;
+    font-size: 20pt;
+}
 
 
 
@@ -249,6 +273,34 @@ a .thumbnail:active {
     margin-right: auto;
 }
 
+
+
+.container06 .row p{
+    font-size: 15pt;
+}
+
+#evergreen1,
+#gold1,
+#change1{
+    border-top-style: outset;
+    margin-top: 15px;
+}
+h6 {
+    font-family: cursive;
+    font-size: 22pt;
+}
+#gold1 h6,
+#gold2 h6 {
+    color: goldenrod;
+}
+#evergreen1 h6,
+#evergreen2 h6 {
+    color: darkgreen;
+}
+#change1 h6,
+#change2 h6 {
+    color: orangered;
+}
 
 /*設定upward*/
 .material-icons:hover,
