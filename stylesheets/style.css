@@ -294,8 +294,12 @@ button {
     background-color: white;
     border-style: none;
     padding-left: 15pt;
+    padding: 0;
 }
 
+#tab2 button img{
+    padding: 0;
+} 
 /*設定upward*/
 .material-icons:hover,
 .material-icons:active {
